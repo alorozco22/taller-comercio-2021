@@ -17,7 +17,20 @@ La [sala del curso](https://nam10.safelinks.protection.outlook.com/ap/t-59584e83
 
 ## Clase 1 - Fundamentos del aprendizaje de máquinas
 
-Este contenido aún no está disponible. Próximamente.
+Las diapositivas van a estar aquí próximamente, pero por ahora, por favor descarguen:
+* El [script de R](https://github.com/alorozco22/taller-comercio-2021/blob/master/scripts/2021%2010%2026%20Proceso%20de%20Aprendizaje%20de%20Maquinas.R).
+*  Los [datos](https://github.com/alorozco22/taller-comercio-2021/blob/master/data/binary.csv).
+
+**Para descargar:** vamos al archivo, luego **clic derecho en "Raw"** y "guardar dirección como".
+
+Los tableros están aquí:
+* Tablero 1: [enlace](https://jamboard.google.com/d/1EydfEJWRsg4PNsqWnGefXe4b7sdCUXS_2oxSUOpDPUU/edit?usp=sharing)
+* Tablero 2: [enlace](https://jamboard.google.com/d/1whER4YqSG718UtVidbO4yPBB9YSnUGmlS_6M8I6x4uI/edit?usp=sharing)
+* Tablero 3: [enlace](https://jamboard.google.com/d/1tCwSXlssfoGQw_n7W6XWazidpT83qhqMXwzFaTR6y7o/edit?usp=sharing)
+* Tablero 4: [enlace](https://jamboard.google.com/d/1wCDbkMP1VpR3GHsopZ50B9569HFtYKGpYfM5k9Jgtq0/edit?usp=sharing)
+* Tablero 5: [enlace](https://jamboard.google.com/d/1RgJDHcn7XEQYm0y9VNRTubirCVSox9kcn_7AjzVizyE/edit?usp=sharing)
+* Tablero 6: [enlace](https://jamboard.google.com/d/1cBXrJug0PfQk4fEOoqmACbL8mXgl0Kw-gaAatXzml4c/edit?usp=sharing)
+* Tablero 7: [enlace](https://jamboard.google.com/d/1a9NEOPsd_3TxbVXqR9RS0XIOWUvwXekookqkuHM4uQ8/edit?usp=sharing)
 
 
 
