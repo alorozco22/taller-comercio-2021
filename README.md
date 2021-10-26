@@ -11,7 +11,7 @@ En este repositorio van a encontrar las presentaciones y materiales de este mód
 
 El correo de Alfredo es el siguiente para cualquier duda ae.orozco10@uniandes.edu.co.
 
-La [sala del curso](https://uniandes-edu-co.zoom.us/j/89726853160) tiene el ID: 0000 0000 0000 
+La [sala del curso](https://nam10.safelinks.protection.outlook.com/ap/t-59584e83/?url=https%3A%2F%2Fteams.microsoft.com%2Fl%2Fmeetup-join%2F19%253aRxgt0oHArvulfmn5oxQw13R96220vpRqXHzvL4Lnq1Q1%2540thread.tacv2%2F1633030844764%3Fcontext%3D%257b%2522Tid%2522%253a%2522fabd047c-ff48-492a-8bbb-8f98b9fb9cca%2522%252c%2522Oid%2522%253a%25221d86a45e-00b7-4594-a592-b0ffaa82fc62%2522%257d&data=04%7C01%7Cae.orozco10%40uniandes.edu.co%7C3490610f4c1c480b9a8608d9845c0ef0%7Cfabd047cff48492a8bbb8f98b9fb9cca%7C0%7C0%7C637686353599428468%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=sfioVcmCpExY06TxL1i%2BrBd8jOl87uJEKBtxW5OoXYU%3D&reserved=0) se encuentra en Microsoft Teams.
 
 ![Carátula del curso](https://github.com/alorozco22/taller-comercio-2021/blob/master/img/cover.png)
 
