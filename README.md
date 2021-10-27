@@ -17,7 +17,7 @@ La [sala del curso](https://nam10.safelinks.protection.outlook.com/ap/t-59584e83
 
 ## Clase 1 - Fundamentos del aprendizaje de máquinas
 
-Las [diapositivas de la clase](https://github.com/alorozco22/taller-comercio-2021/blob/master/clases/2021%2010%2026%20Clase%201%20-%20Fundamentos%20de%20Machine%20Learning.pptx) van a estar aquí próximamente, pero por ahora, por favor descarguen:
+Las [diapositivas de la clase](https://github.com/alorozco22/taller-comercio-2021/blob/master/clases/2021%2010%2026%20Clase%201%20-%20Fundamentos%20de%20Machine%20Learning.pdf) van a estar aquí próximamente, pero por ahora, por favor descarguen:
 * El [script de R](https://github.com/alorozco22/taller-comercio-2021/blob/master/scripts/2021%2010%2026%20Proceso%20de%20Aprendizaje%20de%20Maquinas.R).
 *  Los [datos](https://github.com/alorozco22/taller-comercio-2021/blob/master/data/binary.csv).
 
