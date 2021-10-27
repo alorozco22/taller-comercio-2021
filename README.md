@@ -40,7 +40,7 @@ Si depronto no lo tienen ¡vamos descargando RStudio! de [este enlace](https://w
 
 ¡La otra clase vamos a ir manos al programa!
 
-
+Alfredo.
 
 
 
