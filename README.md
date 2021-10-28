@@ -43,7 +43,15 @@ Si depronto no lo tienen ¡vamos descargando RStudio! de [este enlace](https://w
 Alfredo.
 
 
+Para la clase de hoy, vamos a usar estos tableros:
 
+* Grupo de [auditoría de desempeño](https://jamboard.google.com/d/12bDuNzp7Tw8CXxUNzt_IpEZ3WzTXBhnx97C4FcvgBhA/edit?usp=sharing)
+* Grupo de [exploración de aplicaciones](https://jamboard.google.com/d/1YEQAe_jKNXzEQLZlM0Pz_552tPix6UGgs65aYF972lQ/edit?usp=sharing)
+
+
+Las diapositivas estarán disponibles próximamente.
+
+Alfredo.
 
 
 
