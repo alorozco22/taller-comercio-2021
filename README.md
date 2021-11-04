@@ -53,6 +53,18 @@ Las diapositivas estarán disponibles próximamente.
 
 Alfredo.
 
+## Diapositivas de clases 2 y 3
 
+¡Hola!
+
+Aquí les dejo las diapositivas de la [clase 2](https://github.com/alorozco22/taller-comercio-2021/blob/master/clases/2021%2010%2028%20Clase%202%20-%20Aprendizaje%20supervisado.pdf) y la [clase 3](https://github.com/alorozco22/taller-comercio-2021/blob/master/clases/2021%2011%2002%20Clase%203%20-%20Aprendizaje%20no%20supervisado.pdf).
+
+Este viernes es nuestra última clase. Vamos a trabajar algunos scripts sobre los modelos que ya hemos estudiado, y otras cosas más, como evaluaciones de modelos, y técnicas para potenciar nuestras máquinas.
+
+Tendremos un último taller diferenciado en el que trataremos de terminar de identificar un reto de aprendizaje para la contraloría, y tendremos una sesión más de retroalimentación con el equipo de la auditoría.
+
+¡Nos vemos entonces!
+
+Alfredo.
 
 
