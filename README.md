@@ -68,3 +68,26 @@ Tendremos un último taller diferenciado en el que trataremos de terminar de ide
 Alfredo.
 
 
+## Clase 4
+
+¡Hola de nuevo!
+
+Hoy es nuestra última clase.
+
+Vamos a correr un código con la mayoría de técnicas que estudiamos en el curso.
+Para esto, vamos a descargar:
+
+* [Este script](https://github.com/alorozco22/taller-comercio-2021/blob/master/scripts/2021%2011%2005%20Script%20maquinas%20de%20aprendizaje.R)
+* [Los datos csv de autos](https://github.com/alorozco22/taller-comercio-2021/blob/master/data/audi.csv)
+* [Los datos txt de crimen](https://github.com/alorozco22/taller-comercio-2021/blob/master/data/uscrime.txt)
+
+¡Ha sido un gusto dar este módulo del curso!
+
+A partir de aquí lo que queda es explorar con las técnicas introducidas, siempre teniendo en cuenta los lineamientos y consideraciones éticas.
+
+Muchos éxitos,
+
+Alfredo
+
+
+
