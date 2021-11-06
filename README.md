@@ -89,5 +89,30 @@ Muchos éxitos,
 
 Alfredo
 
+## Despedida
+
+Bueno, ¡muchas gracias por su atención y su buena disposición!
+
+Disfruté mucho dar este módulo y espero que hayan podido sacar el máximo provecho de la clase.
+
+Les dejo las diapositivas de la [clase 4](https://github.com/alorozco22/taller-comercio-2021/blob/master/clases/2021%2011%2005%20Clase%204%20-%20Evaluacion%20de%20modelos.pdf).
+
+Una invitación a que prueben las herramientas, ¡siempre en un estado de juego permanente! y a que sigan adelante explorando. ML no se aprende hasta que no se hace y practica, así que ¡manos a ese código!
+
+Siempre que tengan en mente sus sesgos, varianzas, y consideraciones éticas todo va a estar bien.
+
+¡Muchos éxitos!
+
+Alfredo.
+
+
+
+
+
+
+
+
+
+
 
 

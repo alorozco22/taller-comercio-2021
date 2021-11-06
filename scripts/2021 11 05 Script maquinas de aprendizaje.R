@@ -12,7 +12,7 @@
 ######################################
 # AGENDA:
 # 1. Problemas de regresión
-#     - Regresión lineneal
+#     - Regresión lineal
 # 2. Problemas de clasificación
 #     - Clasificación con regresión logística (es similar con lineal)
 #     - K-vecinos más cercanos
@@ -20,7 +20,7 @@
 # 3. Problemas de aprendizaje no supervisado
 #     - Análisis de componentes principales (PCA)
 
-# Quedan por fuera: clusterización
+# Quedan por fuera: clusterización: k-medias jerárquica
 ######################################
 
 ########################
@@ -32,7 +32,8 @@
 #library('readxl')
 
 # Base de datos de precios de autos Audi
-setwd("/Users/alorozco22/Downloads/carros/")
+setwd("/Users/alorozco22/OneDrive - Universidad de los Andes/Documentos 2021-20/2021 08 30 EdCo Curso Contraloría ML Fayber/repo-comercio/data")
+
 audi <- read.csv(file="audi.csv")
 View(audi)
 
@@ -92,20 +93,20 @@ testingAudi <- audi[ind==2,]
 # 1. Problemas de regresión
 
 # Veamos qué variables pueden tener potencial para predecir el precio 
-#install.packages("corrgram")
-#library("corrgram")
+install.packages("corrgram")
+library("corrgram")
 corrgram(audi, lower.panel=panel.shade, upper.panel=panel.cor)
 # Todas las variables tienen muy buenas correlaciones!
 
 #     - Regresión lineneal
 #       precio  = b0 + b1(millas por galon)+b2(tañamo de motor)+b3(impuesto)+b4(millas)+b5(año)
-        modeloLinealCarros <- lm(price~mpg+mpg+engineSize+tax+mileage+year, trainingAudi)
+        modeloLinealCarros <- lm(price~mpg+engineSize+tax+mileage+year, trainingAudi)
         summary(modeloLinealCarros)
         
         
         # Predicciones con datos nuevos!
         prediccionesTest <- predict(modeloLinealCarros, testingAudi)
-        prediccionesTest
+        head(prediccionesTest)
         
         # Para evaluar vemos valores reales de precio y predicciones
         evalLinealAudi <- cbind(testingAudi$price, prediccionesTest)
@@ -115,6 +116,8 @@ corrgram(audi, lower.panel=panel.shade, upper.panel=panel.cor)
         
         # Promedio de errores
         errorPromedio <- mean((evalLinealAudi$Real - evalLinealAudi$Predicho))
+        # Error al cuadrado promedio
+        errorPromedio2 <- mean((evalLinealAudi$Real - evalLinealAudi$Predicho)*(evalLinealAudi$Real - evalLinealAudi$Predicho))
         
         
 # 2. Problemas de clasificación
@@ -154,6 +157,10 @@ corrgram(audi, lower.panel=panel.shade, upper.panel=panel.cor)
         evalKNNAudi <- as.data.frame(cbind(testingAudi$gasolina,prediccionesKVecinos))
         colnames(evalKNNAudi) <- c('Real', 'Predicho')
         
+        
+        evalKNNAudi$Predicho <- ifelse(evalKNNAudi$Predicho == 1, 0, 2)
+        evalKNNAudi$Predicho <- ifelse(evalKNNAudi$Predicho == 2, 1, 0)
+        
         # Matriz de confusión
         matriz <- table(evalKNNAudi$Predicho,evalKNNAudi$Real)
         # Tasa de error
@@ -172,7 +179,7 @@ corrgram(audi, lower.panel=panel.shade, upper.panel=panel.cor)
         plot(arbol)
         text(arbol, cex=0.5)
         
-        prediccionesArbol = predict(arbol, testingAudiArbol, type="class")
+        prediccionesArbol <- predict(arbol, testingAudiArbol, type="class")
         
         evalArbolAudi <- as.data.frame(testingAudi$gasolina)
         evalArbolAudi$Predicho <- prediccionesArbol
@@ -192,7 +199,7 @@ corrgram(audi, lower.panel=panel.shade, upper.panel=panel.cor)
         # PC1: riqueza y desigualdad
         # PC2: población y mesesEnPrisión
         # PC3: desempleo
-        # PC4: crimen, proporción de hombres
+        # PC4: crimen
         # Cada componente contiene menos varianza que el anterior
         
         # Dónde se ubica cada observación
